@@ -1,0 +1,28 @@
+#redox{
+    font-size: 50px !important;
+    color:#FF1E56;
+    font-weight: bolder;
+    
+}
+#topnav{
+    padding: 10px !important;
+    margin: 10px !important;
+    text-decoration: none;
+    align-items: center;
+}
+.link_nav{
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight:lighter;
+    font-style: normal;
+    color: #000000a8;
+    text-decoration: none;
+    border-radius: 10px;
+    background: #E7EFF8;
+    box-shadow:  9px 9px 12px #d1d7dd,
+             -9px -9px 18px #ffffff;
+}
+.link_nav:hover {
+    color: red;
+  }

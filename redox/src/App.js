@@ -1,9 +1,15 @@
+import React from "react";
+import "./App.css";
+
+import { BrowserRouter } from "react-router-dom";
+import CombinedHome from "./components/A_AllCombined/CombinedHome";
+
 function App() {
   return (
     <div>
-      <React.Fragment>
-        <h1>Redox</h1>
-      </React.Fragment>
+      <BrowserRouter>
+        <CombinedHome />
+      </BrowserRouter>
     </div>
   );
 }

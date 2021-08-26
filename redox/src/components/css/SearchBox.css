@@ -1,0 +1,19 @@
+#srchicon{
+    background: none;
+
+}
+.btnsrch{
+    background-color: #FF1E56 !important;
+}
+.main_srchbox{
+    width: 50rem; 
+  
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    align-items: center;
+}
+#formctrl{
+    background-color: #E7EFF8;
+    border: 2px solid grey;
+}
