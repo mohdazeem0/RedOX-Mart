@@ -8,9 +8,6 @@ import Products from "./Products";
 import Contact from "./Contact";
 import Cart from "./Cart";
 import Login from "./Login";
-import Footer from "./Footer";
-
-import { Box } from "@material-ui/core";
 
 const MainRoute = () => {
   return (
@@ -28,9 +25,6 @@ const MainRoute = () => {
           </div>
         </Switch>
       </Router>
-      <div>
-        <Footer />
-      </div>
     </div>
   );
 };

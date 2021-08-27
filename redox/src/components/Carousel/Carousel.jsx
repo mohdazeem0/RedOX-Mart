@@ -13,7 +13,11 @@ const CarouselMain = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src="./car2.jpg" alt="Second slide" />
+          <img
+            className="d-block w-100"
+            src="./car2.jpg/800px * 800px"
+            alt="Second slide"
+          />
 
           <Carousel.Caption>
             <h3>Second slide label</h3>

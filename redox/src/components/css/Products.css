@@ -1,3 +1,19 @@
 h1{
     text-align: center;
 }
+.cardmain{
+    width: 20rem !important; 
+    margin: 60px;
+    padding: 20px;
+    color: #282c34;
+    border: 2px solid white !important;
+    border-radius: 8px;
+background: #E7EFF8;
+box-shadow:  28px 28px 56px #c9d0d8,
+             -28px -28px 56px #ffffff;
+}
+#cardtitle{
+    text-align: center !important;
+    font-size: 2em;
+    color: #282c34cb;
+}

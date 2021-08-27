@@ -21,7 +21,7 @@ export const TopNav = () => {
                 <NavLink to="/" className="link_nav">
                   Home
                 </NavLink>
-                <NavLink to="/products" className="link_nav">
+                <NavLink to="products" className="link_nav">
                   Products{" "}
                 </NavLink>
                 <NavLink to="/about" className="link_nav">
