@@ -8,7 +8,7 @@ h1{
     color: #282c34;
     border: 2px solid white !important;
     border-radius: 8px;
-background: #E7EFF8;
+background-color : #E7EFF8;
 box-shadow:  28px 28px 56px #c9d0d8,
              -28px -28px 56px #ffffff;
 }

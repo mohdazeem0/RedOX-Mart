@@ -8,17 +8,14 @@ const Products = () => {
     <div>
       <h1>Products</h1>
       <SearchBox />
-      <div>
-        <Container>
-          <Card className="cardmain">
-            <Card.Title id="cardtitle">Products</Card.Title>
-            <Card.Img variant="top" src="/car1.jpg" />
-            <Card.Text>
-              lorem ipsum lorem sjhfbjsdf gfjmhv jsdg fmjsdgvj gsdv hj{" "}
-            </Card.Text>
-          </Card>
-        </Container>
-      </div>
+
+      <Card className="cardmain">
+        <Card.Title id="cardtitle">Products</Card.Title>
+        <Card.Img variant="top" src="/car1.jpg" />
+        <Card.Text>
+          lorem ipsum lorem sjhfbjsdf gfjmhv jsdg fmjsdgvj gsdv hj{" "}
+        </Card.Text>
+      </Card>
     </div>
   );
 };
