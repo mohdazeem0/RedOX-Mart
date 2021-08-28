@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./css/TopNav.css";
+import "./CSS/TopNav.css";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import PersonIcon from "@material-ui/icons/Person";

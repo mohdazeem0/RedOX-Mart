@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Container } from "react-bootstrap";
 import { Box } from "@material-ui/core";
 import CarouselMain from "./Carousel/Carousel";
 
@@ -14,7 +14,7 @@ const Home = () => {
           <Box
             style={{
               backgroundColor: "#EDEDED",
-              width: "100rem",
+
               padding: "100px 80px",
               width: "100%",
             }}

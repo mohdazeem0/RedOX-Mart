@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/SearchBox.css";
+import "./CSS/SearchBox.css";
 import { Button, Form, FormControl } from "react-bootstrap";
 import SearchIcon from "@material-ui/icons/Search";
 
