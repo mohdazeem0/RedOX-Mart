@@ -10,10 +10,9 @@ const ProductList = () => {
 
   const fetchProducts = async () => {
     const response = await axios
-      .get("https://fakestoreapi.com/products")
-      .catch((err) => {
-        console.log("Err", err);
-      });
+      .get("https://fakestoreapi.com/products");
+      return response.data;
+      };
     console.log(response);
 
     dispatch(setProducts(response.data));
